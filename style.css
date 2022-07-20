@@ -57,7 +57,7 @@ Blog  And Upcomming match
     text-align: center;
     color: #FFFFFF;
     padding: 16px 25px;
-    background: #DD0000;
+    background-color: #DD0000;
     border-radius: 5px;
 }
 
@@ -291,8 +291,6 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* width: 1600px;
-    height: 444px; */
     background-color: #161616;
 }
 
@@ -508,6 +506,18 @@ Mobile view
         text-overflow: ellipsis;
     }
 
+    .link-for-headers:hover a {
+
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 16px 25px;
+        background-color: yellowgreen;
+        border-radius: 5px;
+    }
+
     .aria {
         display: none;
     }
@@ -521,18 +531,14 @@ Mobile view
     }
 
     .headers-image:hover {
-        width: 233px;
-        height: 245px;
-        padding-top: 33px;
-        margin-right: 0;
-
-
+        transform: rotate(4deg);
     }
 
     .headers-image img {
         width: 100%;
         height: 100%;
     }
+
 
     .container-headers {
         display: flex;
