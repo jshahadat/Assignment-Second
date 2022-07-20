@@ -86,7 +86,7 @@ Animation Styles
 
     100% {
 
-        left: 200px;
+        left: 150px;
     }
 }
 
@@ -534,12 +534,6 @@ Mobile view
         transform: rotate(4deg);
     }
 
-    .headers-image img {
-        width: 100%;
-        height: 100%;
-    }
-
-
     .container-headers {
         display: flex;
         flex-direction: column;
@@ -609,7 +603,7 @@ Mobile view
     .footer-title {
         font-weight: 600;
         font-size: 22px;
-        line-height: 33px;
+        font-family: 'Rubik Moonrocks', cursive;
         text-align: center;
         color: #FFFFFF;
     }
